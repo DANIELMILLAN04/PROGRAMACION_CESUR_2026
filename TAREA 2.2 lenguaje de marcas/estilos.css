@@ -1,0 +1,40 @@
+h2 {
+    color: blue;
+}
+
+.libro {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+body > header {
+    background-color: black;
+    color: white;
+}
+
+.libro[data-genero="programacion"] {
+    border: 2px solid green;
+}
+
+nav a {
+    color: red;
+}
+
+.info > p {
+    font-style: italic;
+}
+
+.info h2 + p {
+    font-weight: bold;
+}
+
+.info h2 ~ p {
+    margin-left: 20px;
+}
+
+.libro.destacado {
+    background-color: #fff3b0;
+    border: 2px solid orange;
+    font-weight: bold;
+}
